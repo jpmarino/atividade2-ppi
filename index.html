@@ -16,7 +16,7 @@
 
   <h2>Formulário de Cadastro</h2>
 
-  <form id="cadastroForm" onsubmit="return validarFormulario()">
+  <form id="cadastroForm" action="/processar-formulario" method="post" onsubmit="return validarFormulario()">
     <label for="nome">Nome:</label>
     <input type="text" id="nome" name="nome" required>
     <br>
